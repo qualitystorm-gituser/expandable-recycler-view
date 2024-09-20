@@ -1,3 +1,7 @@
+## Deprecated as of September 20, 2024
+
+expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
+
 ![logo](https://images.thoughtbot.com/blog-vellum-image-uploads/lpMtQDMlRindAIJOHlGl_expandable-recycler-view-logo.png)
 
 # Expandable RecyclerView [![CircleCI](https://circleci.com/gh/thoughtbot/expandable-recycler-view/tree/master.svg?style=svg)](https://circleci.com/gh/thoughtbot/expandable-recycler-view/tree/master)
