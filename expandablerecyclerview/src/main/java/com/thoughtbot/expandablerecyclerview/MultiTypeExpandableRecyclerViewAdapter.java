@@ -1,7 +1,9 @@
 package com.thoughtbot.expandablerecyclerview;
 
-import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableList;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableListPosition;
@@ -10,7 +12,7 @@ import com.thoughtbot.expandablerecyclerview.viewholders.GroupViewHolder;
 import java.util.List;
 
 public abstract class MultiTypeExpandableRecyclerViewAdapter<GVH extends GroupViewHolder, CVH extends ChildViewHolder>
-    extends ExpandableRecyclerViewAdapter<GVH, CVH> {
+        extends ExpandableRecyclerViewAdapter<GVH, CVH> {
 
   public MultiTypeExpandableRecyclerViewAdapter(List<? extends ExpandableGroup> groups) {
     super(groups);
@@ -22,14 +24,14 @@ public abstract class MultiTypeExpandableRecyclerViewAdapter<GVH extends GroupVi
    * to the appropriate implementation of either {@link #onCreateGroupViewHolder(ViewGroup, int)}
    * or {@link #onCreateChildViewHolder(ViewGroup, int)}}.
    *
-   * @param parent The {@link ViewGroup} into which the new {@link android.view.View}
-   * will be added after it is bound to an adapter position.
+   * @param parent   The {@link ViewGroup} into which the new {@link android.view.View}
+   *                 will be added after it is bound to an adapter position.
    * @param viewType The view type of the new {@code android.view.View}.
    * @return Either a new {@link GroupViewHolder} or a new {@link ChildViewHolder}
    * that holds a {@code android.view.View} of the given view type.
    */
   @Override
-  public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+  public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
     if (isGroup(viewType)) {
       GVH gvh = onCreateGroupViewHolder(parent, viewType);
       gvh.setOnGroupClickListener(this);
@@ -54,7 +56,7 @@ public abstract class MultiTypeExpandableRecyclerViewAdapter<GVH extends GroupVi
    * ExpandableList#getVisibleItemCount()} in the list at which to bind
    */
   @Override
-  public void onBindViewHolder(ViewHolder holder, int position) {
+  public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
     ExpandableListPosition listPos = expandableList.getUnflattenedPosition(position);
     ExpandableGroup group = expandableList.getExpandableGroup(listPos);
     if (isGroup(getItemViewType(position))) {
