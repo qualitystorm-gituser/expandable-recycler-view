@@ -49,10 +49,10 @@ dependencies {
 }
 
 // Configurações para publicação (opcional)
-ext {
-  PUBLISH_GROUP_ID = 'com.qualitystorm'
-  PUBLISH_VERSION = '1.5'
-  PUBLISH_ARTIFACT_ID = 'expandablerecyclerview'
-}
+//ext {
+//  PUBLISH_GROUP_ID = 'com.qualitystorm'
+//  PUBLISH_VERSION = '1.5'
+//  PUBLISH_ARTIFACT_ID = 'expandablerecyclerview'
+//}
 
 //apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
