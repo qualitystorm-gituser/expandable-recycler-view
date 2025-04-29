@@ -1,2 +1,1 @@
-include ':expandablerecyclerview'
-include ':expandablecheckrecyclerview'
+include ':expandablerecyclerview', ':expandablecheckrecyclerview'
