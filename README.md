@@ -2,6 +2,12 @@
 
 expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
 
+
+## Adicionado ao JITPACK
+![path](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
+A página exibe como deve ser adicionado ao gradle para utilizar a lib no projeto
+
+
 ![logo](https://images.thoughtbot.com/blog-vellum-image-uploads/lpMtQDMlRindAIJOHlGl_expandable-recycler-view-logo.png)
 
 # Expandable RecyclerView [![CircleCI](https://circleci.com/gh/thoughtbot/expandable-recycler-view/tree/master.svg?style=svg)](https://circleci.com/gh/thoughtbot/expandable-recycler-view/tree/master)
