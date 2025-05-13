@@ -6,7 +6,7 @@ Projeto fork de [expandable-recycler-view](https://github.com/thoughtbot/expanda
 
 
 ## Adicionado ao JITPACK
-![path](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
+[https://jitpack.io/](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
 
 A página exibe como deve ser adicionado ao gradle para utilizar a lib no projeto
 
