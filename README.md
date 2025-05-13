@@ -1,14 +1,14 @@
-## Deprecated as of September 20, 2024
-
-expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
+## Adicionado ao JITPACK
+[https://jitpack.io/](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
 
 Projeto fork de [expandable-recycler-view](https://github.com/thoughtbot/expandable-recycler-view.git)
 
 
-## Adicionado ao JITPACK
-[https://jitpack.io/](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
-
 A página exibe como deve ser adicionado ao gradle para utilizar a lib no projeto
+
+## Deprecated as of September 20, 2024
+
+expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
 
 
 ![logo](https://images.thoughtbot.com/blog-vellum-image-uploads/lpMtQDMlRindAIJOHlGl_expandable-recycler-view-logo.png)
