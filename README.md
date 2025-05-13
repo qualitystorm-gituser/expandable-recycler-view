@@ -2,9 +2,12 @@
 
 expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
 
+Projeto fork de [expandable-recycler-view](https://github.com/thoughtbot/expandable-recycler-view.git)
+
 
 ## Adicionado ao JITPACK
 ![path](https://jitpack.io/#qualitystorm-gituser/expandable-recycler-view)
+
 A página exibe como deve ser adicionado ao gradle para utilizar a lib no projeto
 
 
@@ -17,13 +20,13 @@ Custom RecyclerViewAdapters for expanding and collapsing groups with support for
 
 ## Download
 ExpandableRecyclerView:
-```groovy
-compile 'com.thoughtbot:expandablerecyclerview:1.5'
+```gradle
+    implementation 'com.github.qualitystorm-gituser.expandable-recycler-view:expandablerecyclerview:v1.5.1'
 ```
 
 ExpandableCheckRecyclerView:
-```groovy
-compile 'com.thoughtbot:expandablecheckrecyclerview:1.5'
+```gradle
+    implementation 'com.github.qualitystorm-gituser.expandable-recycler-view:expandablecheckrecyclerview:v1.5.1'
 ```
 
 ## Usage
